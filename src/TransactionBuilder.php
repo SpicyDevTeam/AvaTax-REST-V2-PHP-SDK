@@ -505,7 +505,7 @@ class TransactionBuilder
     public function withLine($line = [])
     {
         $l = [
-            'number' => ($line['line'] === null) ? $this->_line_number : $line['line'],
+            'number' => !empty($line['line'] ) ? $line['line'] : $this->_line_number,
             'quantity' => !empty($line['quantity']) ? $line['quantity'] : '',
             'amount' => !empty($line['amount']) ? $line['amount'] : '',
             'taxCode' => !empty($line['taxCode']) ? $line['taxCode'] : '',
