@@ -1,5 +1,5 @@
 {
-  "name": "avalara/avataxclient",
+  "name": "spicydevteam/avataxclient",
   "description": "Client library for Avalara's AvaTax suite of business tax calculation and processing services. Uses the REST v2 API.",
   "keywords": [
     "tax",
@@ -31,6 +31,10 @@
     {
       "name": "Genevieve Conty",
       "email": "genevieve.conty@avalara.com"
+    },
+    {
+      "name": "Jonathan Bradley",
+      "email": "jon@spicerack.market"
     }
   ],
   "license": "Apache-2.0",
@@ -46,8 +50,8 @@
   "support": {
     "docs": "https://developer.avalara.com",
     "forum": "https://community.avalara.com",
-    "source": "https://github.com/avadev/AvaTax-REST-V2-PHP-SDK",
-    "issues": "https://github.com/avadev/AvaTax-REST-V2-PHP-SDK/issues"
+    "source": "https://github.com/SpicyDevTeam/AvaTax-REST-V2-PHP-SDK",
+    "issues": "https://github.com/SpicyDevTeam/AvaTax-REST-V2-PHP-SDK/issues"
   },
   "autoload": {
     "classmap": [
